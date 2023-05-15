@@ -11,10 +11,11 @@ display_list（展示已存数据）
 size（返回数据规模）
 
 # 项目运行方式
+
 ```bash
 make
 ./main
-```bash
+```
 
 如果想在自己的程序中使用这个kv存储引擎，只需要在你的CPP文件中include skiplist.h 即可。
 可以运行如下脚本测试kv存储引擎的性能（当然你可以根据自己的需求进行修改）
@@ -22,4 +23,4 @@ make
 ```bash
 cd stress_test
 sh stress_test.sh
-```bash
+```
